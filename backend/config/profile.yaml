@@ -1,0 +1,10 @@
+# Investor profile. Every agent sees this and every proposal is validated against it.
+# Placeholder values — edit to taste.
+capital_usd: 100000      # virtual money, paper portfolio
+risk_tolerance: medium   # low | medium | high
+horizon_years: 5
+min_holdings: 8
+max_holdings: 15
+max_weight: 0.15         # no single stock above 15%
+markets: [US]
+excluded_tickers: []

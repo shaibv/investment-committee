@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local data and secrets
+backend/.cache/
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store

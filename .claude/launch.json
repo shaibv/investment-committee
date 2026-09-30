@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "committee",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["--directory", "backend", "run", "committee", "serve", "--no-reload"],
+      "port": 8000
+    }
+  ]
+}

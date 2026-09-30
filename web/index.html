@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Investment Committee</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Investment Committee</h1>
+      <p class="muted">AI agents allocating a virtual paper portfolio. Research, not advice.</p>
+    </div>
+    <form id="run-form" class="controls">
+      <label>Model
+        <select id="provider"></select>
+      </label>
+      <label>Prices
+        <select id="data">
+          <option value="yahoo">Yahoo (real)</option>
+          <option value="synthetic">Synthetic (offline)</option>
+        </select>
+      </label>
+      <button id="run" type="submit">Run</button>
+    </form>
+  </header>
+
+  <details class="setup">
+    <summary>Investor profile &amp; candidates</summary>
+    <div id="setup-body" class="setup-body"></div>
+  </details>
+
+  <main class="layout">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Agent timeline</h2>
+        <span id="status" class="status idle">idle</span>
+      </div>
+      <ol id="timeline" class="timeline">
+        <li class="empty muted">Press Run to watch the agent work, step by step.</li>
+      </ol>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>Decision</h2></div>
+      <div id="result" class="result">
+        <p class="empty muted">The final portfolio appears here.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

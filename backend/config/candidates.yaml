@@ -1,0 +1,23 @@
+# Phase 1 stand-in for the research dossier.
+# From Phase 3 on, researcher agents produce this list from news and social media.
+candidates:
+  - AAPL   # tech
+  - MSFT
+  - NVDA
+  - GOOGL
+  - AMZN   # consumer / cloud
+  - META
+  - JPM    # financials
+  - V
+  - BRK-B
+  - UNH    # healthcare
+  - LLY
+  - JNJ
+  - XOM    # energy
+  - CVX
+  - PG     # staples
+  - KO
+  - COST
+  - CAT    # industrials
+  - HD
+  - NEE    # utilities
